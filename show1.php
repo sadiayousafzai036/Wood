@@ -42,7 +42,7 @@
 
 <table border="1" style="display: inline-block;">
   <tr>
-    <th>User Names</th>
+    <th>List of Carved Creations Users</th>
   </tr>
   
 	<?php
