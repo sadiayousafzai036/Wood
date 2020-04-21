@@ -40,7 +40,7 @@
 			<div class="body" id="contact">
 					<h1>List of Users</h1>
 
-<table border="1" style="display: inline-block;">
+<table style="display: inline-block;">
   <tr>
     <th>List of Carved Creations Users</th>
   </tr>
