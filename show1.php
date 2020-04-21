@@ -64,8 +64,60 @@ mysqli_close($conn);
 ?>
 
 </table>
-<a href="show1.php"><h1>Show Users from All Companies</h1></a>
+<?php
+        // create curl resource
+        $ch = curl_init();
+
+        // set url
+        curl_setopt($ch, CURLOPT_URL, "http://saranya.co/securesection.php");
+
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+        // $output contains the output string
+        $output = curl_exec($ch);
 		
+	
+$array = explode("\n", $output );
+		 
+   
+        // close curl resource to free up system resources
+        curl_close($ch);     
+?>
+<table style="float: left;  padding: 5px;">
+	<?php
+     foreach($array as $value){
+        echo "<tr><td>".$value."</td></tr>" ;
+	 }
+?>
+
+</table>
+
+<div style="float: left;  padding: 5px;">
+<?php
+        // create curl resource
+        $ch = curl_init();
+
+        // set url
+        curl_setopt($ch, CURLOPT_URL, "http://www.crnavya.com/sql_connect.php");
+
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+        // $output contains the output string
+        $output = curl_exec($ch);
+		$array = explode("\n", $output );
+		 foreach($array as $value){
+     print $value."\n";
+ }
+
+        // close curl resource to free up system resources
+        curl_close($ch);     
+?>
+</div>
+<a href="show.php"><h1>Back</h1></a>
+	
+	
 </div>
 
 		

@@ -136,7 +136,7 @@
 </tr>
 </table>
 
-<p><a href="show.php">Show Users</a></p>
+<a href="show.php"><h1>Show Users</h1></a>
 </div>
 
 		<p>
