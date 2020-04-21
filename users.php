@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Contact - Wood Working Website</title>
+	<title>Home - Wood Working Website</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -14,7 +14,7 @@
 				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
 			</div>
 			<ul id="navigation">
-				<li>
+				<li class="selected">
 					<a href="index.html">Home</a>
 				</li>
 				<li>
@@ -29,7 +29,7 @@
 				<li>
 					<a href="contact.php">Contact</a>
 				</li>
-				<li class="selected">
+				<li>
 					<a href="Confidential.php">Confidential</a>
 				</li>
 			</ul>
@@ -136,7 +136,7 @@
 </tr>
 </table>
 
-
+<p><a href="show.php">Show Users</a></p>
 </div>
 
 		<p>
