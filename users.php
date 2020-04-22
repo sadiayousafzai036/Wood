@@ -136,7 +136,8 @@
 </tr>
 </table>
 
-<a href="show.php"><h1>Show Users</h1></a>
+<a href="show.php"><h1>Show Users of this Company</h1></a>
+<a href="show1.php"><h1>Show Users of all Companies</h1></a>
 </div>
 
 		<p>

@@ -84,7 +84,7 @@ $array = explode("\n", $output );
         // close curl resource to free up system resources
         curl_close($ch);     
 ?>
-<table style="float: left;  padding: 5px;">
+<table style="float: left;  padding: 5px; ">
 	<?php
      foreach($array as $value){
         echo "<tr><td>".$value."</td></tr>" ;
@@ -115,7 +115,7 @@ $array = explode("\n", $output );
         curl_close($ch);     
 ?>
 </div>
-<a href="show.php"><h1>Back</h1></a>
+<a href="users.php"><h1>Back</h1></a>
 	
 	
 </div>
