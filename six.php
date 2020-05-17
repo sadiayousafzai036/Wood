@@ -15,6 +15,7 @@ setcookie($cookie_item6,$_COOKIE["Item6count"]+1, time() + (7200),"/");
 	<meta charset="UTF-8">
 	<title>Goodyear Solid Wood Dining Table</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div id="header">
@@ -100,6 +101,21 @@ Anchor an entertaining area, spruce up a breakfast nook, or set the foundation f
 					<p>
 						We are not offering any deals or offers at this moment.</p>
 				</div>
+				<form id="myform" action="product_rating.php" method="post">
+	 <input type="hidden" id="prodname" name="prodname" value="Goodyear Solid Wood Dining Table">
+	<label for="rating"><b>Rating:</b></label>
+	<input type="hidden" id="rating" name="rating" value="">
+	<p style="font-size: 30px; color: #F0F0F0; display: inline-block; text-shadow: 0 0 2px #666666;">
+		<i class="fa fa-star fa-fw" data-index="0" ></i>
+		<i class="fa fa-star fa-fw" data-index="1"></i>
+		<i class="fa fa-star fa-fw" data-index="2"></i>
+		<i class="fa fa-star fa-fw" data-index="3"></i>
+		<i class="fa fa-star fa-fw" data-index="4"></i>
+	</p> <br>
+	<label for="review"><b>Review:</b></label><br>
+	<textarea name="review" id="review" rows="4" cols="30" value=""></textarea><br>
+	<input type="submit" name="submit" class="submit" value="Submit" />
+ </form>
 				<a href="tables.html">Back</a></p>
 			</div>
 		</div>
@@ -174,5 +190,7 @@ Anchor an entertaining area, spruce up a breakfast nook, or set the foundation f
 			</p>
 		</div>
 	</div>
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="star_scripts.js" type="text/javascript"></script>
 </body>
 </html>

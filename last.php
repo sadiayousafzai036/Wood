@@ -133,6 +133,9 @@ else {
 					<li>
 						<a href="most.php">Most Visited</a>
 					</li>
+						<li>
+						<a href="top5ratings.php">Best Ratings</a>
+					</li>
 				</ul>
 				<h1>Living Room</h1>
 				<ul class="items">
