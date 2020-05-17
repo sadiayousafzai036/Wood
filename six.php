@@ -31,7 +31,7 @@ setcookie($cookie_item6,$_COOKIE["Item6count"]+1, time() + (7200),"/");
 					<a href="about.html">About</a>
 				</li>
 				<li class="selected">
-					<a href="products.html">Products/Services</a>
+					<a href="products.php">Products/Services</a>
 				</li>
 				<li>
 					<a href="news.html">News</a>
@@ -116,7 +116,7 @@ Anchor an entertaining area, spruce up a breakfast nook, or set the foundation f
 	<textarea name="review" id="review" rows="4" cols="30" value=""></textarea><br>
 	<input type="submit" name="submit" class="submit" value="Submit" />
  </form>
-				<a href="tables.html">Back</a></p>
+				<a href="tables.php">Back</a></p>
 			</div>
 		</div>
 	</div>

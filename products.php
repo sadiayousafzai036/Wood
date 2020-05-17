@@ -44,13 +44,13 @@
 			<div class="body"  id="gallery">
 				<ul class="tabs">
 					<li class="selected">
-						<a href="products.html">Sofas</a>
+						<a href="products.php">Sofas</a>
 					</li>
 					<li>
-						<a href="tables.html">Tables</a>
+						<a href="tables.php">Tables</a>
 					</li>
 					<li>
-						<a href="chairs.html">Chairs</a>
+						<a href="chairs.php">Chairs</a>
 					</li>
 					<li>
 						<a href="last.php">Last Visited</a>
@@ -92,12 +92,12 @@
 							<img src="images/sofa.jpg" alt="Img">
 						</div>	<?php
             $encoded_name = urlencode("Cushioned Sofa in Cashmere");
-   	 $encoded_url = urlencode("two.php");
+   	 $encoded_url = urlencode("https://sadiayousafzai2.herokuapp.com/two.php");
    	 $redirect_url = "http://ganesh041152080.ipage.com/marketplace/cookie_setter.php?name=".$encoded_name."&url=".$encoded_url;
     echo "<h5><a href=".$redirect_url.">Cushioned Sofa in Cashmere</a></h5>";    
 ?>
 						<p>
-							Standard Sofa Cushion Dimensions Standard couch cushions are square. <a href="two.php">Click here</a> for more info.</p>
+							Standard Sofa Cushion Dimensions Standard couch cushions are square. </p>
 						<div class="details">
 							<h5>Details</h5>
 							<p>
@@ -179,7 +179,7 @@
 					<a href="about.html">About</a>
 				</li>
 				<li>
-					<a href="products.html">Products/Services</a>
+					<a href="products.php">Products/Services</a>
 				</li>
 				<li>
 					<a href="news.html">News</a>

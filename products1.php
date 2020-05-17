@@ -39,13 +39,13 @@
 			<div class="body"  id="gallery">
 				<ul class="tabs">
 					<li class="selected">
-						<a href="products.html">Sofas</a>
+						<a href="products.php">Sofas</a>
 					</li>
 					<li>
-						<a href="tables.html">Tables</a>
+						<a href="tables.php">Tables</a>
 					</li>
 					<li>
-						<a href="chairs.html">Chairs</a>
+						<a href="chairs.php">Chairs</a>
 					</li>
 					<li>
 						<a href="last.php">Last Visited</a>
@@ -66,7 +66,7 @@
 						
 						<?php
             $encoded_name = urlencode("McKenly Modern 69.7(inch) Square Arm Sofa");
-   	 $encoded_url = urlencode("three.php");
+   	 $encoded_url = urlencode("https://sadiayousafzai2.herokuapp.com/three.php");
    	 $redirect_url = "http://ganesh041152080.ipage.com/marketplace/cookie_setter.php?name=".$encoded_name."&url=".$encoded_url;
     echo "<h5><a href=".$redirect_url.">McKenly Modern 69.7(inch) Square Arm Sofa</a></h5>";    
 ?>
@@ -91,7 +91,7 @@
 					
 												<?php
             $encoded_name = urlencode("Lambdin Wooden Sofa");
-   	 $encoded_url = urlencode("four.php");
+   	 $encoded_url = urlencode("https://sadiayousafzai2.herokuapp.com/four.php");
    	 $redirect_url = "http://ganesh041152080.ipage.com/marketplace/cookie_setter.php?name=".$encoded_name."&url=".$encoded_url;
     echo "<h5><a href=".$redirect_url.">Lambdin Wooden Sofa</a></h5>";    
 ?>
@@ -178,7 +178,7 @@
 					<a href="about.html">About</a>
 				</li>
 				<li>
-					<a href="products.html">Products/Services</a>
+					<a href="products.php">Products/Services</a>
 				</li>
 				<li>
 					<a href="news.html">News</a>

@@ -31,7 +31,7 @@ setcookie($cookie_item7,$_COOKIE["Item7count"]+1, time() + (7200),"/");
 					<a href="about.html">About</a>
 				</li>
 				<li class="selected">
-					<a href="products.html">Products/Services</a>
+					<a href="products.php">Products/Services</a>
 				</li>
 				<li>
 					<a href="news.html">News</a>
@@ -117,7 +117,7 @@ This anti-scratch faux carrara marble table is the perfect fit for a party of tw
 	<textarea name="review" id="review" rows="4" cols="30" value=""></textarea><br>
 	<input type="submit" name="submit" class="submit" value="Submit" />
  </form>
-				<a href="tables1.html">Back</a></p>
+				<a href="tables1.php">Back</a></p>
 			</div>
 		</div>
 	</div>

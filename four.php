@@ -31,7 +31,7 @@ setcookie($cookie_item4,$_COOKIE["Item4count"]+1, time() + (7200),"/");
 					<a href="about.html">About</a>
 				</li>
 				<li class="selected">
-					<a href="products.html">Products/Services</a>
+					<a href="products.php">Products/Services</a>
 				</li>
 				<li>
 					<a href="news.html">News</a>
@@ -117,7 +117,7 @@ setcookie($cookie_item4,$_COOKIE["Item4count"]+1, time() + (7200),"/");
 	<textarea name="review" id="review" rows="4" cols="30" value=""></textarea><br>
 	<input type="submit" name="submit" class="submit" value="Submit" />
  </form>
-				<a href="products1.html">Back</a></p>
+				<a href="products1.php">Back</a></p>
 			</div>
 		</div>
 	</div>
