@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@sadiayousafzai036 
-sadiayousafzai036
-/
-Wood
-1
-0
-0
- Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-Wood/products1.php /
-@sadiayousafzai036 sadiayousafzai036 Add files via upload
-2d85622 2 hours ago
-199 lines (197 sloc)  5.74 KB
-  
-Code navigation is available!
-Navigate your code with ease. Click on function and method calls to jump to their definitions or references in the same repository. Learn more
-
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
