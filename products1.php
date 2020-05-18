@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@sadiayousafzai036 
+sadiayousafzai036
+/
+Wood
+1
+0
+0
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+Wood/products1.php /
+@sadiayousafzai036 sadiayousafzai036 Add files via upload
+2d85622 2 hours ago
+199 lines (197 sloc)  5.74 KB
+  
+Code navigation is available!
+Navigate your code with ease. Click on function and method calls to jump to their definitions or references in the same repository. Learn more
+
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
@@ -71,7 +102,7 @@
     echo "<h5><a href=".$redirect_url.">McKenly Modern 69.7(inch) Square Arm Sofa</a></h5>";    
 ?>
 						<p>
-							If you want to add a touch of mid-century modern style to your living room arrangement, you’ll love this sofa! <a href="three.php">Click here</a> for more info.
+							If you want to add a touch of mid-century modern style to your living room arrangement, you’ll love this sofa!.</p>
 						</p>
 						<div class="details">
 							<h5>Details</h5>
@@ -96,7 +127,7 @@
     echo "<h5><a href=".$redirect_url.">Lambdin Wooden Sofa</a></h5>";    
 ?>
 						<p>
-							Give a grand welcome to your guests with the majestic beige sofa. <a href="four.php">Click here</a> for more info.</p>
+							Give a grand welcome to your guests with the majestic beige sofa.</p>
 						<div class="details">
 							<h5>Details</h5>
 							<p>

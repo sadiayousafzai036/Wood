@@ -5,18 +5,10 @@
 <body>
 <?php
 ob_start();
-/*
-$servername = "localhost";
-$username = "root";
-$password = "mySql123";
-$database = "happytummy";
-*/
-
 $servername = "us-cdbr-iron-east-04.cleardb.net";
 $username = "bbfde2f23076ea";
 $password = "13418461";
 $database = "heroku_9f74518f3cbe85c";
-
 
 if (!($conn = mysqli_connect($servername, $username, $password,$database))){
      echo "Could not connect to database";
@@ -67,13 +59,13 @@ if ($result->num_rows > 0) {
 
 arsort($scores);
 
-foreach ($scores as $name => $value) {
+foreach (array_slice($scores,0,5) as $name => $value) {
    echo $name." - ".$value."<br>";
 }
 
 mysqli_close($conn);
 
 ?>
-<h3> please click <a href = "https://sadiayousafzai2.herokuapp.com/index.html"> here</a> to return to products page of Carved Creations</h3>
+<h3> please click <a href = "index.html"> here</a> to return to products page of Carved Creations</h3>
 <h3> please click <a href="http://ganesh041152080.ipage.com/marketplace/homepage.php">here</a> to return to Marketplace home page</h3>
 </html>
