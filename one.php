@@ -107,7 +107,7 @@ setcookie($cookie_item1,$_COOKIE["Item1count"]+1, time() + (7200),"/");
 <!-- Form to get ratings and reviews from the user -->
 <form id="myform" action="product_rating.php" method="post">
 	 <input type="hidden" id="prodname" name="prodname" value="Treated Oak Flooring with wide Table and Bench">
-	<label for="rating"><b>Rating1:</b></label>
+	<label for="rating"><b>Rating:</b></label>
 	<input type="hidden" id="rating" name="rating" value="">
 	<p style="font-size: 30px; color: #F0F0F0; display: inline-block; text-shadow: 0 0 2px #666666;">
 		<i class="fa fa-star fa-fw" data-index="0" ></i>
@@ -196,6 +196,7 @@ setcookie($cookie_item1,$_COOKIE["Item1count"]+1, time() + (7200),"/");
 		</div>
 	</div>
 	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<p>calling star</p>
 <script src="star_scripts.js" type="text/javascript"></script>
 
 </body>

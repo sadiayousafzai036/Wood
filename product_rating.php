@@ -10,7 +10,6 @@ $username = "bbfde2f23076ea";
 $password = "13418461";
 $database = "heroku_9f74518f3cbe85c";
 
-
 if (!($link = mysqli_connect($servername, $username, $password,$database))){
      echo "Could not connect to database";
     die("ERROR: Could not connect to database");
