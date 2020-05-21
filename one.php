@@ -196,6 +196,7 @@ setcookie($cookie_item1,$_COOKIE["Item1count"]+1, time() + (7200),"/");
 		</div>
 	</div>
 	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="star_scripts.js" type="text/javascript"></script>
+<script src="star_scripts.js" type="text/javascript"></script>
+
 </body>
 </html>
