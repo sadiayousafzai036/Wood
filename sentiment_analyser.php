@@ -140,6 +140,7 @@ private $similiarity_min_distance = 65.00;
 
 
         public function initialize() {
+                /*
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/EmotionLookupTable.txt","lexicon_array",true);
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/BoosterWordList.txt","enhancer_array",true);
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/NegatingWordList.txt","polarize_array",false);
@@ -149,6 +150,16 @@ private $similiarity_min_distance = 65.00;
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/negative_data.txt","bad_phrases",true);
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/positive_data.txt","good_phrases",true);
                 $this->import_lexicons(dirname(dirname(__FILE__))."/data/neutral_data.txt","neutral_phrases",true);
+                */
+                $this->import_lexicons("data/EmotionLookupTable.txt","lexicon_array",true);
+                $this->import_lexicons("data/BoosterWordList.txt","enhancer_array",true);
+                $this->import_lexicons("data/NegatingWordList.txt","polarize_array",false);
+                $this->import_lexicons("data/IdiomLookupTable.txt","idion_array",true);
+                $this->import_lexicons("data/EmoticonLookupTable.txt","emoticon_array",true);
+                
+                $this->import_lexicons("data/negative_data.txt","bad_phrases",true);
+                $this->import_lexicons("data/positive_data.txt","good_phrases",true);
+                $this->import_lexicons("data/neutral_data.txt","neutral_phrases",true);
 
         }
 
@@ -184,7 +195,8 @@ private $similiarity_min_distance = 65.00;
 
             $this->mention = $this->tokenise($text);
             $this->mention = $this->remove_stop_words($this->mention);
-            $this->original_text = implode($this->mention," ");
+            #$this->original_text = implode($this->mention," ");
+            $this->original_text = implode(" ",$this->mention);
 
             $this->number_words = count($this->mention);
 
@@ -708,9 +720,12 @@ private $similiarity_min_distance = 65.00;
             $for_y = $this->return_negative_sentiment();
             $for_t = $this->number_words;
 
+            
 
             $for_a = $this->number_positive_words;
             $for_b = $this->number_negative_words;
+
+            //echo $for_x."<br>".$for_y."<br>".$for_t."<br>".$for_a."<br>".$for_b."<br>";
 
             $for_p = ($for_a / $for_t) * $for_x;
             $for_f = ($for_b / $for_t) * $for_y;
@@ -850,6 +865,3 @@ public function import_sentiment_custom($text,$rating) {
         
 }
 ?>
-
-
-
