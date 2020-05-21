@@ -66,12 +66,7 @@
 							<img src="images/4.jpg" alt="Img">
 						</div>
 						
-						<?php
-            $encoded_name = urlencode("Treated Oak Flooring with wide Table and Bench");
-   	 $encoded_url = urlencode("https://sadiayousafzai2.herokuapp.com/one.php");
-   	 $redirect_url = "http://ganesh041152080.ipage.com/marketplace/cookie_setter.php?name=".$encoded_name."&url=".$encoded_url;
-    echo "<h4><a href=".$redirect_url.">Treated Oak Flooring with wide Table and Bench</a></h4>";    
-?>
+<a href="one.php"> one </a>
 
 						<p>
 							Wooden build can work well with any room decor.
